@@ -4,9 +4,18 @@ from algorithms import *
 import time
 
 #constants
+# TRUE means output
+# will be in color
 COLORMODE = False
-IMAGEPATH = 'sample.jpeg'
-CLUMPSIZE = 24
+
+# path of the image
+IMAGEPATH = 'apple.jpeg'
+
+# size of clumps
+# smaller CLUMPSIZE
+# means more squares 
+# and smaller fonts
+CLUMPSIZE = 8
 
 # start time
 start = time.time()
